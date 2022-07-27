@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Anthony Alicea's Resume</title>
         <meta charset="UTF-8">
-        <title>Resume of Tony Alicea</title>
     </head>
     <body>
         <main>
-            <h1>Resume</h1>
             <nav>
-                <ul>
-                    <li><a href="#about-me">About me</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#work-history">Work history</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#address">Address</a></li>
-                </ul>
+                <a href="#about-me">About Me</a>
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#work-history">Work History</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#address">Address</a>
             </nav>
+            <h1>Resume</h1>
             <section>
                 <h2>Tony Alicea</h2>
                 <p>
                     Coder, UX Designer, and Instructor
                 </p>
-                <dl>
-                    <dt>Website</dt>
-                    <dd><a href="https://www.google.com">google.com</a></dd>
-                    <dt>Phone</dt>
-                    <dd>555-555-1111</dd>
-                    <dt>Twitter</dt>
-                    <dd>@anthonypalicea</dd>
-                </dl>
+               <dl>
+                <dt>Website:</dt>
+                <dd><a href="https://google.com">google.com</a></dd>
+                <dt>Phone:</dt>
+                <dd>555-555-1111</dd>
+                <dt>Twitter:</dt>
+                <dd><a href="https://twitter.com/@anthonypalicea">@anthonypalicea</a></dd>
+               </dl>
             </section>
 
             <article id="about-me">
                 <header>
-                    <h2>About Me</h2>
+                    About me
                 </header>
                 <p>
                     Hi! I'm Tony Alicea and I'm <em>happy</em> to have you as a student in my courses. <aside><small>Don't imitate, understand!</small></aside>
@@ -44,7 +41,7 @@
                     Contact me
                 </footer>
             </article>
-
+            
             <section id="services">
                 <h2>Services</h2>
                 <ul>
@@ -74,26 +71,41 @@
 
             <section id="work-history">
                 <h2>Work History</h2>
-                <ol>
-                    <li>
-                        UX/UI Designer
-                        XYZ Corp
-                        3 years
-                    </li>
-                    <li>
-                        Web Developer
-                        ABC Corp
-                        5 years
-                    </li>
-                    <li>
-                        Carpet Cleaner
-                        123 Inc.
-                        2 years
-                    </li>
-                </ol>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Position</th>
+                            <th>Company</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>UX/UI Designer</td>
+                            <td>XYZ Corp</td>
+                            <td>3 years</td>
+                        </tr>
+                        <tr>
+                            <td>Web developer</td>
+                            <td>ABC Corp</td>
+                            <td>5 years</td>
+                        </tr>
+                        <tr>
+                            <td>Carpet Cleaner</td>
+                            <td>123 Inc.</td>
+                            <td>2 years</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Total</td>
+                            <td>10 years</td>
+                        </tr>
+                    </tfoot>
+                </table>
             </section>
 
-            <!-- Needs pictures -->
+            <!-- TODO: Fill with images -->
             <section id="portfolio">
                 <h2>Portfolio</h2>
             </section>
@@ -111,7 +123,7 @@
             <section id="address">
                 <h2>Mailing Address</h2>
                 <address>
-                    111 Main St. <br/>
+                    111 Main St.<br/>
                     Somewhere, NY 33333
                 </address>
             </section>
